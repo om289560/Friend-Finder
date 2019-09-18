@@ -242,7 +242,7 @@
           return isValid;
         }
 
-        if (validateForm())
+        if (validateForm()) {
           var userData = {
             name: $("#name").val(),
             photo: $("#photo").val(),
@@ -262,15 +262,15 @@
 
           $.post("/api/friends", userData, function(data) {
 
-            $("#match-name").text(data.name);
-            $("#match-img").attr("src", data.photo);
+            $("#matchName").text(data.name);
+            $("#matchImg").attr("src", data.photo);
 
             $("#results-modal").modal("toggle");
 
           });
         } else {
           alert("Please fill out all fields before submitting!");
-        }
+        };
       });
     </script>
   </body>
