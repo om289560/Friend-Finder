@@ -9,7 +9,7 @@ is meant to simulate a simple dating app. The application is implemented using a
 ## Installation
 To install the application follow the instructions below:
 
-git clone 
+git clone git@github.com:om289560/Friend-Finder.git
 cd Friend-Finder
 npm install
 Running Locally
