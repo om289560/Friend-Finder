@@ -9,14 +9,14 @@ is meant to simulate a simple dating app. The application is implemented using a
 ## Installation
 To install the application follow the instructions below:
 
-git clone git@github.com:om289560/Friend-Finder.git
-cd Friend-Finder
-npm install
-Running Locally
-To run the application locally and access it in your browser, first set the PORT environment variable to the value of your choice. An example is shown below.
+  git clone git@github.com:om289560/Friend-Finder.git
+  cd Friend-Finder
+  npm install
+  Running Locally
+  To run the application locally and access it in your browser, first set the PORT environment variable to the value of your    choice. An example is shown below.
 
-export PORT=
-After the PORT environment variable has been set, run the Node.js application with the command below.
+  export PORT= 3006
+  After the PORT environment variable has been set, run the Node.js application with the command below.
 
-node server.js
-The application will now be running locally on PORT, in this case that is port . You can then access it locally from your browser at the URL localhost:PORT, in this case localhost:3030.
+  node server.js
+  The application will now be running locally on PORT 3006, in this case that is port . You can then access it locally from   your browser at the URL localhost:PORT, in this case localhost:3006.
